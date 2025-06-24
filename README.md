@@ -1,73 +1,126 @@
-# Welcome to your Lovable project
 
-## Project info
+# PolySync - AI-Powered Document Editor
 
-**URL**: https://lovable.dev/projects/e04c3236-9644-4b70-85a5-b27855de6747
+PolySync is a free, web-based policy and document editor designed for teams. It features AI-powered assistance, real-time editing, and collaborative tools to help you create better documents faster.
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- **Smart Document Editing**: Rich text editor with real-time preview and formatting tools
+- **AI-Powered Assistance**: Built-in AI chat for summarizing, rephrasing, and enhancing documents
+- **Document Upload**: Support for DOCX, PDF, and TXT files with automatic parsing
+- **Real-time Collaboration**: Share and collaborate on documents with team members
+- **Auto-save**: Automatic saving every 10 seconds to prevent data loss
+- **@-Mentions**: Quick AI actions with @ mentions in the editor
+- **Export Options**: Download your documents in various formats
 
-**Use Lovable**
+## 🛠️ Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e04c3236-9644-4b70-85a5-b27855de6747) and start prompting.
+- **Frontend**: React + TypeScript + Vite
+- **Styling**: Tailwind CSS + shadcn/ui
+- **Routing**: React Router
+- **State Management**: React Query
+- **File Processing**: Client-side document parsing
+- **AI Integration**: Ready for OpenAI API integration
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📦 Installation
 
-**Use your preferred IDE**
+1. **Clone the repository**
+   ```bash
+   git clone <YOUR_GIT_URL>
+   cd polysync
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-Follow these steps:
+4. **Open your browser**
+   ```
+   http://localhost:8080
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Production Build
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+npm run build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## 🔧 Environment Variables
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+For full AI functionality, you'll need to set up the following environment variables:
 
-**Use GitHub Codespaces**
+```env
+VITE_OPENAI_API_KEY=your_openai_api_key_here
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+> **Note**: In the current demo version, AI responses are simulated. To enable real AI features, you'll need to integrate with OpenAI's API.
 
-## What technologies are used for this project?
+## 📖 Usage
 
-This project is built with:
+### Getting Started
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. **Upload a Document**: Click "Get Started" and upload a DOCX, PDF, or TXT file
+2. **Start Editing**: Use the rich text editor to modify your content
+3. **AI Assistance**: Use the chat panel or @ mentions for AI help
+4. **Save & Export**: Your document auto-saves, and you can export when ready
 
-## How can I deploy this project?
+### AI Features
 
-Simply open [Lovable](https://lovable.dev/projects/e04c3236-9644-4b70-85a5-b27855de6747) and click on Share -> Publish.
+- **@-Mentions**: Type @ in the editor for quick AI actions
+- **Chat Panel**: Ask the AI to improve, summarize, or rephrase content
+- **Smart Suggestions**: Get context-aware recommendations
+- **Compliance Help**: Add compliance sections and guidelines
 
-## Can I connect a custom domain to my Lovable project?
+### Keyboard Shortcuts
 
-Yes, you can!
+- **Ctrl/Cmd + B**: Bold text
+- **Ctrl/Cmd + I**: Italic text
+- **Ctrl/Cmd + U**: Underline text
+- **@**: Open AI actions menu
+- **Enter**: Send chat message
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🎯 Demo
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Try our interactive demo at `/demo` to see PolySync in action with a sample document.
+
+## 🔒 Privacy & Security
+
+- Documents are processed locally in your browser
+- No permanent server storage in demo mode
+- Enterprise-grade security for production deployments
+- GDPR and SOC2 compliance ready
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our contributing guidelines for more details.
+
+## 📄 License
+
+MIT License - see LICENSE file for details.
+
+## 🆘 Support
+
+- **Documentation**: [View our docs](https://docs.polysync.com)
+- **Issues**: [GitHub Issues](https://github.com/your-repo/issues)
+- **Community**: [Join our Discord](https://discord.gg/polysync)
+
+## 🗺️ Roadmap
+
+- [ ] Real-time collaboration
+- [ ] Advanced AI integrations
+- [ ] Cloud storage options
+- [ ] Mobile app
+- [ ] API access
+- [ ] Enterprise features
+
+---
+
+Built with ❤️ by the PolySync team
+```
